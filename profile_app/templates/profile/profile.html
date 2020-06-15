@@ -1,0 +1,4 @@
+<img src="{{ user.socialaccount_set.all.0.get_avatar_url }}" alt="avatar" class="avatar" />
+<h1 class="avatar_title">{{ user.socialaccount_set.all.0.extra_data.name }}</h1>
+<div class="avatar_email">{{ user.socialaccount_set.all.0.extra_data.email }}</div>
+<a href="/accounts/logout/" next='/' class="btn btn-blue-shadow">Log out</a>
